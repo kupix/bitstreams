@@ -1,0 +1,11 @@
+Bitdepth_B_RExt_Sony
+
+Spec version: HM14.0+RExt-7.2
+
+Feature: Test unequal luma and chroma bitdepth setting. The chroma bitdepth is higher than the luma bitdepth.
+
+Level: 4.1 (1920x1080x60 YUV 444)
+
+Frame rate: 60 fps
+
+ 

@@ -1,0 +1,2 @@
+9cab6bcd74491062a8523b5a7ff6a540  CCP_8bit_RExt_QCOM.bin
+f3e914fccdb820eac85f46642ea0e168  CCP_8bit_RExt_QCOM.gbr
