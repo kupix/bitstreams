@@ -1,0 +1,37 @@
+Bitstream file name: HYBRID_A_QUALCOMM_1.bit
+
+Bitstream feature name: Conformance hybrid scalability
+
+Bitstream feature description:
+The conformance bitstream for hybrid scalability.
+The coded bitstream only contains enhancement layer whereas reconstructed base layer is expected to be provided externally.
+
+- Coding structure: Random access main
+- Number of Frames: 15
+- Reconstructed base layer is provided in this package with file name: BaseLayerSequence.yuv
+
+Output Layer Sets:
+- OLS_0 - Should be provided externally.
+- OLS_1 -   Layer: 1, PTL Idx: 2 (Scalable Main 4.1)
+
+Number of layers: 2 (but only EL available in the bitstream)
+
+Profile, Tier, Level information: Num PTL = 3
+- PTL_Idx 0 - Profile: MAIN [V1 Whole Bitstream PTL]
+              Level: 4.1
+- PTL_Idx 1 - Profile: MAIN [Base layer PTL]
+              Level: 3.1
+- PTL_Idx 2 - Profile: SCALABLE MAIN [Ehhancement layer PTL]
+              Level: 4.1
+
+Each layer resolution:
+- Layer 0 resolution - Output: 1280x720
+                       Coded:  1280x720
+- Layer 1 resolution - Output: 1920x1080
+                       Coded:  1920x1280
+
+Frame rate: 30 fps for both layers
+
+SHM Version: SHM-9.0
+Contact: Hendry, Qualcomm Inc. (fhendry@qti.qualcomm.com.com)
+

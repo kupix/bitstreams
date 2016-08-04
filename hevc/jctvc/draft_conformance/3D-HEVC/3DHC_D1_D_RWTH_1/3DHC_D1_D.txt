@@ -1,0 +1,6 @@
+Name: 3DHC_D1_D
+Specification: The bitstream is coded with AI configuration as well as 3-view configuration. In addition, SDC is enabled for depth coding.
+Functional stage: Decoding of three views with SDC enabled for depth. 
+Purpose: To conform SDC in AI configuration.
+
+Software: HTM13.0

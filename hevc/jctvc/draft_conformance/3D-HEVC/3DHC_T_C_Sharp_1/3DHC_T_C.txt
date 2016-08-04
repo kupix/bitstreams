@@ -1,0 +1,6 @@
+Name: 3DHC_T_C_Sharp_0
+Specification: The bitstream is coded with random access configuration as well as 3-view configuration. In addition to inter-view motion prediction, illumination compensation is enabled in the non-base texture views.
+Functional stage: Decoding of three views with illumination compensation. 
+Purpose: To conform the illumination compensation. 
+
+Software: HTM13.0

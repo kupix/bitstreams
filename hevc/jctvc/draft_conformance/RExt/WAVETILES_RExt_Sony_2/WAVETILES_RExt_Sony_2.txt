@@ -1,0 +1,28 @@
+Category: HighThroughput 4:4:4 16b Intra Profile; Sub-category: wavefronts+tiles
+
+The purpose of the stream is to exercise the combination of simultaneously
+using wavefronts and tiles.
+The stream consists of four sequences of one picture:
+  Sequence 1: 1 slice per picture
+  Sequence 2: 1 slice per tile
+  Sequence 3: 1 slice for at most 6 CTUs
+  Sequence 4: 1 slice segment for at most 6 CTUs
+
+Sequences 1, 2 and 4 all result in the same checksum
+
+The video is 4:4:4 16 bit GBR, 512x384 samples, 8CTUs x 6CTUs
+The tile structure is equally spaced, i.e. CTUs (TsAddr) are arranged as:
++-----------+-----------+
+| 0  1  2  3|12 13 14 15|
+| 4  5  6  7|16 17 18 19|
+| 8  9 10 11|20 21 22 23|
++-----------+-----------+
+|24 25 26 27|36 37 38 39|
+|28 29 30 31|40 41 42 43|
+|32 33 34 35|44 45 46 47|
++-----------+-----------+
+
+Level=3, tier=main
+
+Checksum SEI messages are included.
+Spec. version : HM16.3

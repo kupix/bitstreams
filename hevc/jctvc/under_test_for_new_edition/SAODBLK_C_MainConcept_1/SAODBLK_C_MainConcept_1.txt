@@ -1,0 +1,46 @@
+file_name: SAODBLK_C_MainConcept_1.bit
+resolutions: 344x664, 680x1320, 1352x2632
+frame-rate: 29.97
+levels: 4.0, 5.0
+profiles: Monochrome, Main, Main 4:2:2 10, Main 4:4:4 10
+length: 36 frames
+features: This stream verifies that inloop filtering across slices can be switched on/off randomly for each slice, a usually rare condition allowed by the HEVC specification. All frames are IDR. Smallest CU size is 8. Both frame width and height are multiple of smallest CU size. CTUs on right and bottom picture border are splitted by frame border. Bottom-right CTU contains only one CU with smallest size. Within the stream all chroma subsampling formats multiplied by all possible CTU sizes - 12 combinations. Each combination has 3 flavors: single slice & multiple tiles, multiple slices & single tile, multiple slices & multiple tiles. SAO & deblocking exist on all frames. slice_loop_filter_across_slices_enabled_flag randomized.
+
+Stream structure:
+Frame number:  0, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:0:0, Slices count: 44, Tiles count:  1
+Frame number:  1, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:4:4, Slices count:  1, Tiles count: 10
+Frame number:  2, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:2:0, Slices count:  1, Tiles count:  5
+Frame number:  3, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:4:4, Slices count: 27, Tiles count:  9
+Frame number:  4, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:2:2, Slices count:  1, Tiles count: 10
+Frame number:  5, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:0:0, Slices count:  1, Tiles count: 10
+Frame number:  6, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:0:0, Slices count:  1, Tiles count: 15
+Frame number:  7, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:2:0, Slices count:  1, Tiles count: 15
+Frame number:  8, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:0:0, Slices count: 15, Tiles count:  3
+Frame number:  9, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:4:4, Slices count: 44, Tiles count:  1
+Frame number: 10, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:4:4, Slices count:  1, Tiles count: 15
+Frame number: 11, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:2:2, Slices count: 44, Tiles count:  1
+Frame number: 12, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:2:0, Slices count: 44, Tiles count:  1
+Frame number: 13, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:0:0, Slices count: 44, Tiles count:  1
+Frame number: 14, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:0:0, Slices count: 27, Tiles count:  9
+Frame number: 15, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:2:2, Slices count: 44, Tiles count:  1
+Frame number: 16, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:4:4, Slices count: 24, Tiles count:  3
+Frame number: 17, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:4:4, Slices count: 44, Tiles count:  1
+Frame number: 18, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:2:0, Slices count: 24, Tiles count:  6
+Frame number: 19, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:4:4, Slices count: 44, Tiles count:  1
+Frame number: 20, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:2:2, Slices count: 24, Tiles count:  6
+Frame number: 21, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:0:0, Slices count:  1, Tiles count:  5
+Frame number: 22, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:0:0, Slices count: 44, Tiles count:  1
+Frame number: 23, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:2:2, Slices count:  1, Tiles count:  5
+Frame number: 24, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:2:0, Slices count: 44, Tiles count:  1
+Frame number: 25, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:2:0, Slices count: 27, Tiles count:  9
+Frame number: 26, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:0:0, Slices count: 24, Tiles count:  6
+Frame number: 27, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:2:2, Slices count: 27, Tiles count:  9
+Frame number: 28, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:2:0, Slices count: 24, Tiles count:  3
+Frame number: 29, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:2:0, Slices count:  1, Tiles count: 10
+Frame number: 30, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:2:2, Slices count: 24, Tiles count:  3
+Frame number: 31, Frame width: 1352, Frame height: 2632, CTU size: 64, CSS: 4:2:2, Slices count:  1, Tiles count: 15
+Frame number: 32, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:4:4, Slices count:  1, Tiles count:  5
+Frame number: 33, Frame width:  344, Frame height:  664, CTU size: 16, CSS: 4:2:0, Slices count: 44, Tiles count:  1
+Frame number: 34, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:4:4, Slices count: 24, Tiles count:  6
+Frame number: 35, Frame width:  680, Frame height: 1320, CTU size: 32, CSS: 4:2:2, Slices count: 44, Tiles count:  1
+

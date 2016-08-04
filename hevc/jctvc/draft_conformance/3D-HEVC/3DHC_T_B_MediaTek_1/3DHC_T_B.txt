@@ -1,0 +1,6 @@
+Purpose: Check the decoding of three views with sub-PU inter-view motion prediction
+Specification: The bitstream is coded with random access configuration as well as 3-view configuration. In addition to inter-view motion prediction, sub-PU inter-view motion prediction is enabled in the non-base texture views.
+Software version: HTM13.0
+Sequence: gtFly
+# of views:     3T+3D
+# of frames:    50

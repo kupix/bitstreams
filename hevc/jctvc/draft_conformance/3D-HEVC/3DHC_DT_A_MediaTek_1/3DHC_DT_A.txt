@@ -1,0 +1,7 @@
+Purpose: Check the decoding of three views with DoNBDV on.
+Specification: The bitstream is coded with random access configuration as well as 3-view configuration. 
+DoNBDV is enabled in the non-base texture views.
+Software version: HTM13.0
+Sequence: newspaper
+# of views:     3T+3D
+# of frames:    60

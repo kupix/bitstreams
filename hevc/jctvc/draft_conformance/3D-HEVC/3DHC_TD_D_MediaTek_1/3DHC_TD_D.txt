@@ -1,0 +1,6 @@
+Purpose: To conform the Quad-Tree Limitation in random access configurations. 
+Specification: The bitstream is coded with random access configuration as well as 3-view configuration. In addition to all the texture coding tools, all the depth coding tools and depth dependent texture coding tools, QTL (Quad-Tree Limitation) is turned on.
+Software version: HTM13
+Sequence: Kendo ( 1024x768)
+# of views:     3T+3D
+# of frames:    60

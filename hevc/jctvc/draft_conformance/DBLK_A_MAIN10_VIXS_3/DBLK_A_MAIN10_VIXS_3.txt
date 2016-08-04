@@ -1,5 +1,0 @@
-DBLK_H_VIXS_3.bit
-
-Spec version : HM10.0
-
-negative QP for deblocking filter (Main10)

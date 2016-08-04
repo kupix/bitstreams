@@ -1,0 +1,6 @@
+Name: 3DHC_T_D_Sharp_0
+Specification: The bitstream is coded with random access configuration as well as 3-view configuration. In addition to inter-view motion prediction, ARP, sub-PU inter-view motion prediction and illumination compensation are enabled in the non-base texture views.
+Functional stage: Decoding of three views with all texture coding tools enabled. 
+Purpose: To conform the combined texture coding tools. 
+
+Software: HTM13.0
